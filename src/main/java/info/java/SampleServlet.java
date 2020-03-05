@@ -22,7 +22,7 @@ public class SampleServlet extends HttpServlet {
        Connection con =  getConnection();
    }
 	
-	public void getConnection() throws ServletException, IOException {
+	public Connection getConnection() throws ServletException, IOException {
 		 resp.setContentType("text/plain");
          resp.getWriter().write("Hello World! Maven Web Project Example. ");
          resp.getWriter().write("Hello World! Maven Web Project Example ");
