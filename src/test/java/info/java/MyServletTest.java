@@ -32,10 +32,7 @@ public class MyServletTest {
     @Test
     public void testGetConnection() throws SQLException {
      SampleServlet myServlet =new SampleServlet();
-        Connection con = myServlet.getConnection();
-        Assert.assertNotNull(con);
-        Assert.assertTrue(con.isValid(0));
-        con.close();
+       assertEquals(myServlet.getConnection());
     }
  
    
