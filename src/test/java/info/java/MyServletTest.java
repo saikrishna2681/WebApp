@@ -30,22 +30,13 @@ public class MyServletTest {
     }
  
     @Test
-    public void testFullName() throws Exception {
- 
-        when(request.getParameter("empId")).thenReturn("56789");
-        when(request.getParameter("empName")).thenReturn("ABCDE");
- 
-        StringWriter sw = new StringWriter();
-        PrintWriter pw = new PrintWriter(sw);
-         
-        when(response.getWriter()).thenReturn(pw);
- 
-       
-     
+    public void testGetConnection() throws SQLException {
      SampleServlet myServlet =new SampleServlet();
-        myServlet.doGet(request, response);
-        String result = sw.getBuffer().toString().trim();
-        assertEquals(result, new String("Full Name: ABCDE"));
- 
+        Connection con = myServlet.getConnection();
+        Assert.assertNotNull(con);
+        Assert.assertTrue(con.isValid(0));
+        con.close();
     }
+ 
+   
 }
