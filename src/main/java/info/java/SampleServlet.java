@@ -19,7 +19,11 @@ public class SampleServlet extends HttpServlet {
       
       //sendind response
      
-         resp.setContentType("text/plain");
+       Connection con =  getConnection();
+   }
+	
+	public void getConnection() throws ServletException, IOException {
+		 resp.setContentType("text/plain");
          resp.getWriter().write("Hello World! Maven Web Project Example. ");
          resp.getWriter().write("Hello World! Maven Web Project Example ");
          
@@ -45,10 +49,11 @@ public class SampleServlet extends HttpServlet {
 	       pstmt.setString(3,salary);
       int updates = pstmt.executeUpdate();
           resp.getWriter().write("No Of records inserted : "+updates);
-      
+      return con;
          
       } catch(Exception e){ 
          e.printStackTrace();
       }  
-   }
+	}
+	
 }
