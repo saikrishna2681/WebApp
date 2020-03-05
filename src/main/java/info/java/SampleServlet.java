@@ -19,10 +19,10 @@ public class SampleServlet extends HttpServlet {
       
       //sendind response
      
-       Connection con =  getConnection();
+       Connection con =  getConnection(req,resp);
    }
 	
-	public Connection getConnection() throws ServletException, IOException {
+	public Connection getConnection(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 		 resp.setContentType("text/plain");
          resp.getWriter().write("Hello World! Maven Web Project Example. ");
          resp.getWriter().write("Hello World! Maven Web Project Example ");
@@ -35,12 +35,13 @@ public class SampleServlet extends HttpServlet {
          resp.getWriter().write("EMP Name : "+name);
 	   resp.getWriter().write("EMP Salary : "+salary);
    
-       try {  
+       Connection con=null;
+	try {  
      resp.setContentType("text/plain");
       resp.getWriter().write("Hello World! Maven Web Project Example.");
       
       Class.forName("com.mysql.jdbc.Driver");  
-      Connection con=DriverManager.getConnection(  
+       con=DriverManager.getConnection(  
       "jdbc:mysql://172.17.0.1:3306/hello_java?useSSL=false","demo_java","1234"); 
           
       PreparedStatement pstmt=con.prepareStatement("insert into hello_java.emp values(?,?,?)");  
@@ -49,11 +50,13 @@ public class SampleServlet extends HttpServlet {
 	       pstmt.setString(3,salary);
       int updates = pstmt.executeUpdate();
           resp.getWriter().write("No Of records inserted : "+updates);
-      return con;
+      
          
       } catch(Exception e){ 
+    	 
          e.printStackTrace();
-      }  
+      }
+       return con;
 	}
 	
 }
