@@ -32,7 +32,7 @@ public class MyServletTest {
     @Test
     public void testGetConnection() throws SQLException {
      SampleServlet myServlet =new SampleServlet();
-       assertEquals(DriverManager.getConnection()!=null);
+       Assert.assertEquals(myServlet.getConnection()!=null);
     }
  
    
