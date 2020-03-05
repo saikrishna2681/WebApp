@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="1" failures="1" name="info.java.MyServletTest" time="22.1" errors="0" skipped="0">
+  <properties>
+    <property name="java.vendor" value="Eclipse OpenJ9"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\AdoptOpenJDK\jdk-8.0.202.08\jre\bin\compressedrefs\jclSC180\vm.jar;C:\Program Files\AdoptOpenJDK\jdk-8.0.202.08\jre\lib\se-service.jar;C:\Program Files\AdoptOpenJDK\jdk-8.0.202.08\jre\lib\rt.jar;C:\Program Files\AdoptOpenJDK\jdk-8.0.202.08\jre\lib\resources.jar;C:\Program Files\AdoptOpenJDK\jdk-8.0.202.08\jre\lib\jsse.jar;C:\Program Files\AdoptOpenJDK\jdk-8.0.202.08\jre\lib\charsets.jar;C:\Program Files\AdoptOpenJDK\jdk-8.0.202.08\jre\lib\jce.jar"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.runtime.version" value="1.8.0_202-b08"/>
+    <property name="user.name" value="saikrishna.o"/>
+    <property name="java.compiler" value="j9jit29"/>
+    <property name="os.encoding" value="UTF8"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="com.ibm.util.extralibs.properties" value=""/>
+    <property name="com.ibm.jcl.checkClassPath" value=""/>
+    <property name="user.language" value="en"/>
+    <property name="com.ibm.oti.vm.bootstrap.library.path" value="C:\Program Files\AdoptOpenJDK\jdk-8.0.202.08\jre\bin\compressedrefs;C:\Program Files\AdoptOpenJDK\jdk-8.0.202.08\jre\bin"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\AdoptOpenJDK\jdk-8.0.202.08\jre\bin\compressedrefs;C:\Program Files\AdoptOpenJDK\jdk-8.0.202.08\jre\bin"/>
+    <property name="classworlds.conf" value="C:\Users\saikrishna.o\eclipse-workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf6812114838568811383.tmp"/>
+    <property name="jdk.extensions.version" value="8.0.202.1"/>
+    <property name="java.version" value="1.8.0_202"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="com.ibm.system.agent.path" value="C:\Program Files\AdoptOpenJDK\jdk-8.0.202.08\jre\bin"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="com.ibm.zero.version" value="2"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\AdoptOpenJDK\jdk-8.0.202.08\jre\lib\endorsed"/>
+    <property name="com.ibm.oti.vm.library.version" value="29"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="user.country" value="US"/>
+    <property name="java.home" value="C:\Program Files\AdoptOpenJDK\jdk-8.0.202.08\jre"/>
+    <property name="java.vm.info" value="JRE 1.8.0 Windows 10 amd64-64-Bit Compressed References 20190205_265 (JIT enabled, AOT enabled)
+OpenJ9   - 90dd8cb40
+OMR      - d2f4534b
+JCL      - d002501a90 based on jdk8u202-b08"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.awt.fonts" value=""/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.version" value="openj9-0.12.1"/>
+    <property name="user.variant" value=""/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="jdk.extensions.name" value="Extensions for OpenJDK for Eclipse OpenJ9"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="ibm.signalhandling.sigint" value="true"/>
+    <property name="user.home" value="C:\Users\saikrishna.o"/>
+    <property name="com.ibm.cpu.endian" value="little"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="ibm.signalhandling.sigchain" value="true"/>
+    <property name="java.library.path" value="C:\Program Files\AdoptOpenJDK\jdk-8.0.202.08\jre\bin\compressedrefs;C:\Program Files\AdoptOpenJDK\jdk-8.0.202.08\jre\bin;C:\windows\system32;C:\windows;C:/Program Files/AdoptOpenJDK/jdk-8.0.202.08/bin/../jre/bin/j9vm;C:/Program Files/AdoptOpenJDK/jdk-8.0.202.08/bin/../jre/bin;C:/Program Files/AdoptOpenJDK/jdk-8.0.202.08/bin/../jre/lib/amd64;C:\Program Files (x86)\Python38-32\Scripts\;C:\Program Files (x86)\Python38-32\;C:\Program Files\AdoptOpenJDK\jdk-8.0.202.08\bin;C:\Program Files\AdoptOpenJDK\jre-8.0.202.08\bin;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files (x86)\Symantec\VIP Access Client\;C:\Program Files\Amazon\AWSCLI\bin\;C:\Users\saikrishna.o\AppData\Local\Programs\Git\cmd;C:\Users\saikrishna.o\AppData\Local\Microsoft\WindowsApps;C:\Users\saikrishna.o\AppData\Local\Programs\Git\cmd;C:\Program Files\Docker Toolbox\;;C:\Program Files\Docker Toolbox;C:\Users\saikrishna.o\Downloads\eclipse-java-photon-R-win32-x86_64\eclipse;;."/>
+    <property name="java.vendor.url" value="http://www.eclipse.org/openj9"/>
+    <property name="java.vm.vendor" value="Eclipse OpenJ9"/>
+    <property name="java.fullversion" value="1.8.0_202-b08
+JRE 1.8.0 Windows 10 amd64-64-Bit Compressed References 20190205_265 (JIT enabled, AOT enabled)
+OpenJ9   - 90dd8cb40
+OMR      - d2f4534b
+JCL      - d002501a90 based on jdk8u202-b08"/>
+    <property name="maven.home" value="C:\Users\saikrishna.o\eclipse-workspace\WebApp\EMBEDDED"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B test"/>
+    <property name="java.class.path" value="C:\Users\saikrishna.o\Downloads\eclipse-java-photon-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_1.9.0.20180606-2035\jars\plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="java.io.tmpdir" value="C:\Users\saikrishna.o\AppData\Local\Temp\"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\saikrishna.o\eclipse-workspace\WebApp"/>
+    <property name="ibm.system.encoding" value="Cp1252"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="ibm.signalhandling.rs" value="false"/>
+    <property name="java.ext.dirs" value="C:\Program Files\AdoptOpenJDK\jdk-8.0.202.08\jre\lib\ext"/>
+    <property name="user.dir" value="C:\Users\saikrishna.o\eclipse-workspace\WebApp"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.name" value="Eclipse OpenJ9 VM"/>
+    <property name="com.ibm.oti.shared.enabled" value="false"/>
+    <property name="com.ibm.vm.bitmode" value="64"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="com.ibm.oti.configuration" value="scar"/>
+    <property name="java.specification.version" value="1.8"/>
+  </properties>
+  <testcase classname="info.java.MyServletTest" name="testFullName" time="22.1">
+    <failure message="expected:&lt;[Hello World! Maven Web Project Example. Hello World! Maven Web Project Example EMP ID : 56789EMP Name : ABCDEEMP Salary : nullHello World! Maven Web Project Example.]&gt; but was:&lt;[Full Name: ABCDE]&gt;" type="org.junit.ComparisonFailure">org.junit.ComparisonFailure: expected:&lt;[Hello World! Maven Web Project Example. Hello World! Maven Web Project Example EMP ID : 56789EMP Name : ABCDEEMP Salary : nullHello World! Maven Web Project Example.]&gt; but was:&lt;[Full Name: ABCDE]&gt;
+	at org.junit.Assert.assertEquals(Assert.java:99)
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at info.java.MyServletTest.testFullName(MyServletTest.java:48)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.internal.runners.TestMethod.invoke(TestMethod.java:59)
+	at org.junit.internal.runners.MethodRoadie.runTestMethod(MethodRoadie.java:98)
+	at org.junit.internal.runners.MethodRoadie$2.run(MethodRoadie.java:79)
+	at org.junit.internal.runners.MethodRoadie.runBeforesThenTestThenAfters(MethodRoadie.java:87)
+	at org.junit.internal.runners.MethodRoadie.runTest(MethodRoadie.java:77)
+	at org.junit.internal.runners.MethodRoadie.run(MethodRoadie.java:42)
+	at org.junit.internal.runners.JUnit4ClassRunner.invokeTestMethod(JUnit4ClassRunner.java:88)
+	at org.junit.internal.runners.JUnit4ClassRunner.runMethods(JUnit4ClassRunner.java:51)
+	at org.junit.internal.runners.JUnit4ClassRunner$1.run(JUnit4ClassRunner.java:44)
+	at org.junit.internal.runners.ClassRoadie.runUnprotected(ClassRoadie.java:27)
+	at org.junit.internal.runners.ClassRoadie.runProtected(ClassRoadie.java:37)
+	at org.junit.internal.runners.JUnit4ClassRunner.run(JUnit4ClassRunner.java:42)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+</failure>
+    <system-err>com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:389)
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:1038)
+	at com.mysql.jdbc.MysqlIO.&lt;init&gt;(MysqlIO.java:338)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2237)
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2270)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2069)
+	at com.mysql.jdbc.ConnectionImpl.&lt;init&gt;(ConnectionImpl.java:794)
+	at com.mysql.jdbc.JDBC4Connection.&lt;init&gt;(JDBC4Connection.java:44)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:389)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:399)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:325)
+	at java.sql.DriverManager.getConnection(DriverManager.java:664)
+	at java.sql.DriverManager.getConnection(DriverManager.java:247)
+	at info.java.SampleServlet.doGet(SampleServlet.java:39)
+	at info.java.MyServletTest.testFullName(MyServletTest.java:46)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.internal.runners.TestMethod.invoke(TestMethod.java:59)
+	at org.junit.internal.runners.MethodRoadie.runTestMethod(MethodRoadie.java:98)
+	at org.junit.internal.runners.MethodRoadie$2.run(MethodRoadie.java:79)
+	at org.junit.internal.runners.MethodRoadie.runBeforesThenTestThenAfters(MethodRoadie.java:87)
+	at org.junit.internal.runners.MethodRoadie.runTest(MethodRoadie.java:77)
+	at org.junit.internal.runners.MethodRoadie.run(MethodRoadie.java:42)
+	at org.junit.internal.runners.JUnit4ClassRunner.invokeTestMethod(JUnit4ClassRunner.java:88)
+	at org.junit.internal.runners.JUnit4ClassRunner.runMethods(JUnit4ClassRunner.java:51)
+	at org.junit.internal.runners.JUnit4ClassRunner$1.run(JUnit4ClassRunner.java:44)
+	at org.junit.internal.runners.ClassRoadie.runUnprotected(ClassRoadie.java:27)
+	at org.junit.internal.runners.ClassRoadie.runProtected(ClassRoadie.java:37)
+	at org.junit.internal.runners.JUnit4ClassRunner.run(JUnit4ClassRunner.java:42)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at com.mysql.jdbc.StandardSocketFactory.connect(StandardSocketFactory.java:213)
+	at com.mysql.jdbc.MysqlIO.&lt;init&gt;(MysqlIO.java:297)
+	... 44 more
+</system-err>
+  </testcase>
+</testsuite>
